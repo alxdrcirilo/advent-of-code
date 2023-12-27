@@ -57,7 +57,7 @@ def extract_digits_extended(string: str) -> int:
 
 
 if __name__ == "__main__":
-    with open("2023/day_1/input.txt", "r") as file:
+    with open("2023/day_01/input.txt", "r") as file:
         strings = file.read().split("\n")
         sum = sum(list(map(extract_digits_extended, strings)))
         print(f"Sum of calibration values (extended): {sum}")

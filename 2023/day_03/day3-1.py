@@ -32,6 +32,6 @@ def get_sum() -> int:
 
 
 if __name__ == "__main__":
-    with open("2023/day_3/input.txt", "r") as file:
+    with open("2023/day_03/input.txt", "r") as file:
         strings = file.read().split("\n")
         print(f"Sum of part numbers: {get_sum()}")

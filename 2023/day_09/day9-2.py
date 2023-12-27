@@ -10,7 +10,7 @@ def get_diff_sum(values: list[int]) -> int:
 
 
 if __name__ == "__main__":
-    with open("2023/day_9/input.txt", "r") as file:
+    with open("2023/day_09/input.txt", "r") as file:
         data = file.read().splitlines()
 
     data = [list(map(int, line.split())) for line in data]
