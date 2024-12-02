@@ -83,7 +83,7 @@ def get_farthest_steps() -> int:
 
 if __name__ == "__main__":
     # Source: https://github.com/hyper-neutrino/advent-of-code/blob/main/2023/day10p1.py
-    with open("2023/day_10/input.txt", "r") as file:
+    with open("2023/day10/input.txt", "r") as file:
         data = file.read().splitlines()
 
     grid = get_grid()

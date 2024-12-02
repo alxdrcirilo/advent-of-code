@@ -16,7 +16,7 @@ def get_points(scratchcard: str) -> int:
 
 
 if __name__ == "__main__":
-    with open("2023/day_04/input.txt", "r") as file:
+    with open("2023/day04/input.txt", "r") as file:
         data = file.read().splitlines()
 
     pattern = r"Card\s+(\d+):(?:\s+)((?:\d+\s*)+)\s\|(?:\s+)((?:\d+\s*)+)"

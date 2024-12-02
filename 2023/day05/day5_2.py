@@ -70,7 +70,7 @@ def get_lowest_location(seeds: list[tuple[int, int]]) -> int:
 
 
 if __name__ == "__main__":
-    with open("2023/day_05/input.txt", "r") as file:
+    with open("2023/day05/input.txt", "r") as file:
         strings = file.read().split("\n\n")
         strings = [string.splitlines() for string in strings]
 

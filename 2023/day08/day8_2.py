@@ -67,7 +67,7 @@ def get_lcm() -> int:
 
 
 if __name__ == "__main__":
-    with open("2023/day_08/input.txt", "r") as file:
+    with open("2023/day08/input.txt", "r") as file:
         directions, _, *nodes = file.read().splitlines()
 
     mapping = get_mapping()

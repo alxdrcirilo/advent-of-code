@@ -97,7 +97,7 @@ def get_gear_ratios_sum() -> int:
 
 
 if __name__ == "__main__":
-    with open("2023/day_03/input.txt", "r") as file:
+    with open("2023/day03/input.txt", "r") as file:
         strings = file.read().split("\n")
         digits = get_digits()
         stars = get_stars()

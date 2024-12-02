@@ -43,7 +43,7 @@ def get_impossible_games() -> set[int]:
 
 
 if __name__ == "__main__":
-    with open("2023/day_02/input.txt", "r") as file:
+    with open("2023/day02/input.txt", "r") as file:
         strings = file.read().split("\n")
 
         # Parse to human-readable format

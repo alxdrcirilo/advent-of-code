@@ -21,7 +21,7 @@ def get_matrix() -> np.ndarray:
 
     :return np.array: matrix
     """
-    with open("2023/day_11/input.txt", "r") as file:
+    with open("2023/day11/input.txt", "r") as file:
         data = file.read().splitlines()
         data = [list(line.strip()) for line in data]
     return np.array(data)

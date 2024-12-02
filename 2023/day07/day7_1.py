@@ -114,7 +114,7 @@ def get_winnings() -> int:
 
 
 if __name__ == "__main__":
-    with open("2023/day_07/input.txt", "r") as file:
+    with open("2023/day07/input.txt", "r") as file:
         lines = file.read().splitlines()
         lines = [x.split(":") for x in lines]
 
