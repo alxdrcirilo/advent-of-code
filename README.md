@@ -35,16 +35,16 @@
 > [!NOTE]
 > For **Rust** 🦀 programs, parts 1 and 2 are included in the same file, thus the runtime refers to the entire day including both parts.
 
-| **Day** | **Part** | **Year** | **Language** | **Lines of Code** |  **Runtime (ms)** |              **File Path**             |
-|:-------:|:--------:|:--------:|:------------:|:-----------------:|:-----------------:|:--------------------------------------:|
-| 01      | 1        | 2024     | Rust         | 43                | 3.1 ms ±   0.2 ms | [2024/src/day01.rs](2024/src/day01.rs) |
-| 01      | 2        | 2024     | Rust         | 43                | 3.1 ms ±   0.2 ms | [2024/src/day01.rs](2024/src/day01.rs) |
-| 02      | 1        | 2024     | Rust         | 64                | 3.6 ms ±   0.1 ms | [2024/src/day02.rs](2024/src/day02.rs) |
-| 02      | 2        | 2024     | Rust         | 64                | 3.6 ms ±   0.1 ms | [2024/src/day02.rs](2024/src/day02.rs) |
-| 03      | 1        | 2024     | Rust         | 49                | 2.8 ms ±   0.1 ms | [2024/src/day03.rs](2024/src/day03.rs) |
-| 03      | 2        | 2024     | Rust         | 49                | 2.8 ms ±   0.1 ms | [2024/src/day03.rs](2024/src/day03.rs) |
-| 03      | 1        | 2024     | Rust         | 100               | 3.5 ms ±   0.1 ms | [2024/src/day04.rs](2024/src/day04.rs) |
-| 03      | 2        | 2024     | Rust         | 100               | 3.5 ms ±   0.1 ms | [2024/src/day04.rs](2024/src/day04.rs) |
+| **Day** | **Part** | **Year** | **Language** | **LOCs** |  **Runtime (ms)** |              **File Path**             |
+|:-------:|:--------:|:--------:|:------------:|:--------:|:-----------------:|:--------------------------------------:|
+| 01      | 1        | 2024     | Rust         | 43       | 3.1 ms ±   0.2 ms | [2024/src/day01.rs](2024/src/day01.rs) |
+| 01      | 2        | 2024     | Rust         | 43       | 3.1 ms ±   0.2 ms | [2024/src/day01.rs](2024/src/day01.rs) |
+| 02      | 1        | 2024     | Rust         | 64       | 3.6 ms ±   0.1 ms | [2024/src/day02.rs](2024/src/day02.rs) |
+| 02      | 2        | 2024     | Rust         | 64       | 3.6 ms ±   0.1 ms | [2024/src/day02.rs](2024/src/day02.rs) |
+| 03      | 1        | 2024     | Rust         | 49       | 2.8 ms ±   0.1 ms | [2024/src/day03.rs](2024/src/day03.rs) |
+| 03      | 2        | 2024     | Rust         | 49       | 2.8 ms ±   0.1 ms | [2024/src/day03.rs](2024/src/day03.rs) |
+| 03      | 1        | 2024     | Rust         | 100      | 3.5 ms ±   0.1 ms | [2024/src/day04.rs](2024/src/day04.rs) |
+| 03      | 2        | 2024     | Rust         | 100      | 3.5 ms ±   0.1 ms | [2024/src/day04.rs](2024/src/day04.rs) |
 
 ## Metrics
 
