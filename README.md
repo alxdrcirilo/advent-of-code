@@ -43,6 +43,8 @@
 | 02      | 2        | 2024     | Rust         | 64                | 3.6 ms ±   0.1 ms | [2024/src/day02.rs](2024/src/day02.rs) |
 | 03      | 1        | 2024     | Rust         | 49                | 2.8 ms ±   0.1 ms | [2024/src/day03.rs](2024/src/day03.rs) |
 | 03      | 2        | 2024     | Rust         | 49                | 2.8 ms ±   0.1 ms | [2024/src/day03.rs](2024/src/day03.rs) |
+| 03      | 1        | 2024     | Rust         | 100               | 3.5 ms ±   0.1 ms | [2024/src/day04.rs](2024/src/day04.rs) |
+| 03      | 2        | 2024     | Rust         | 100               | 3.5 ms ±   0.1 ms | [2024/src/day04.rs](2024/src/day04.rs) |
 
 ## Metrics
 
