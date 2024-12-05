@@ -33,7 +33,9 @@
 ### 2024
 
 > [!NOTE]
-> For **Rust** 🦀 programs, parts 1 and 2 are included in the same file, thus the runtime refers to the entire day including both parts.
+>
+> - For **Rust** 🦀 programs, parts 1 and 2 are included in the same file, thus the runtime refers to the entire day including both parts.
+> - Skipped days are not included in the table below. Partially completed days are included in the table and marked with an asterisk `*`.
 
 | **Day** | **Part** | **Year** | **Language** | **LOCs** |  **Runtime (ms)** |              **File Path**             |
 |:-------:|:--------:|:--------:|:------------:|:--------:|:-----------------:|:--------------------------------------:|
@@ -43,17 +45,15 @@
 | 02      | 2        | 2024     | Rust         | 64       | 3.6 ms ±   0.1 ms | [2024/src/day02.rs](2024/src/day02.rs) |
 | 03      | 1        | 2024     | Rust         | 49       | 2.8 ms ±   0.1 ms | [2024/src/day03.rs](2024/src/day03.rs) |
 | 03      | 2        | 2024     | Rust         | 49       | 2.8 ms ±   0.1 ms | [2024/src/day03.rs](2024/src/day03.rs) |
-| 03      | 1        | 2024     | Rust         | 100      | 3.5 ms ±   0.1 ms | [2024/src/day04.rs](2024/src/day04.rs) |
-| 03      | 2        | 2024     | Rust         | 100      | 3.5 ms ±   0.1 ms | [2024/src/day04.rs](2024/src/day04.rs) |
+| 04      | 1        | 2024     | Rust         | 100      | 3.5 ms ±   0.1 ms | [2024/src/day04.rs](2024/src/day04.rs) |
+| 04      | 2        | 2024     | Rust         | 100      | 3.5 ms ±   0.1 ms | [2024/src/day04.rs](2024/src/day04.rs) |
+| 05*     | 1        | 2024     | Rust         | 35       | 3.8 ms ±   0.2 ms | [2024/src/day05.rs](2024/src/day05.rs) |
 
 ## Metrics
 
-> [!NOTE]
-> The runtime was determined using the `hyperfine` command in the terminal.
->
-> - **Python**: `hyperfine -r 20 --warmup 10 <...>`
-> - **Rust**: `hyperfine -r 100 --warmup 20 -N <...>` (on binary using `cargo build --release`)
+The runtime was determined using the [`hyperfine`](https://github.com/sharkdp/hyperfine) command in the terminal:
 
-> [!NOTE]
-> LOCs (**Lines of Code**) are counted using the `cloc` command in the terminal.
-> e.g. `cloc --by-file --include-lang=Python 2023`
+- **Python**: `hyperfine -r 20 --warmup 10 <...>`
+- **Rust**: `hyperfine -r 100 --warmup 20 -N <...>` (on binary using `cargo build --release`)
+
+LOCs (**Lines of Code**) are counted using the [`cloc`] command in the terminal (e.g. `cloc --by-file --include-lang=Python 2023`).
